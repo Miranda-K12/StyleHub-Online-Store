@@ -188,7 +188,7 @@
     "price": 15.99,
     "description": "Essential white t-shirt with a comfortable fit. Crafted from 100% cotton for softness and breathability. Ideal for layering or as a standalone piece. Easy care fabric resists shrinking and fading.",
     "rating": 3.2,
-    "image": "./assets/kids/white-tshirt-2.JPG",
+    "image": "./assets/kids/white-tshirt-2.jpg",
 
     "sizes": [
       "3-4 years",
@@ -337,7 +337,7 @@
     "price": 34.0,
     "description": "These Brown Shorts are the ultimate in relaxed style. Made from lightweight, breathable cotton, they’re perfect for summer days. With a tailored waist and roomy fit, comfort meets class. Easy to pair with polos or t-shirts. Your new weekend staple.",
     "rating": 4.3,
-    "image": "./assets/man/brown-shorts.webp",
+    "image": "./assets/man/brown-Shorts.webp",
     "sizes": ["XS", "S", "M", "L", "XL"]
   },
   {
