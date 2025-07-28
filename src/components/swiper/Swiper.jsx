@@ -15,7 +15,7 @@ const SwiperLayout = ({ products }) => {
       slidesPerView={1}
       pagination={{ clickable: true }}
       autoplay={{
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
       }}
       loop={products.length >= maxSlides}

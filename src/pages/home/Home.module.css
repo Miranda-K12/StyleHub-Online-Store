@@ -2,7 +2,6 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  position: relative;
 }
 
 .heroImage {
@@ -15,7 +14,7 @@
 .brandStory {
   width: 90%;
   margin: 0 auto;
-  margin-top: 64px;
+  margin-top: 36px;
 }
 .brandText {
   width: 80%;
@@ -66,7 +65,7 @@
 @media (max-width: 768px) {
   .brandTitle,
   .newArrivalsHeader {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
   .shopList {
     grid-template-columns: 1fr;
