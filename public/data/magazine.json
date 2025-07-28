@@ -1,0 +1,531 @@
+[
+  {
+    "id": 1,
+    "category": "Kids",
+    "title": "Beige Jumper",
+    "price": 29.99,
+    "description": "Soft and cozy beige jumper perfect for chilly days. Made with breathable fabric that keeps kids warm without overheating. Stylish yet comfortable, it pairs well with jeans or leggings. Durable stitching ensures long-lasting wear.",
+    "rating": 4.9,
+    "image": "src/assets/kids/beige-jumper.webp",
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Kids",
+    "title": "White T-shirt",
+    "price": 15.99,
+    "description": "Classic white t-shirt crafted from 100% cotton for ultimate comfort. Ideal for layering or wearing alone, this tee is a wardrobe staple. Easy to wash and maintain with a soft finish that feels gentle on the skin. Perfect fit for active kids.",
+    "rating": 3.2,
+    "image": "src/assets/kids/White-t-shirt.webp",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Kids",
+    "title": "Blue Dress",
+    "price": 39.99,
+    "description": "Elegant blue dress designed for special occasions and everyday wear. Features lightweight fabric that flows beautifully with every step. Adjustable straps and elastic waistband offer a custom fit. Adds a pop of color to any wardrobe.",
+    "rating": 4.8,
+    "image": "src/assets/kids/blue-dress.webp",
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Kids",
+    "title": "Brown Jumpsuit",
+    "price": 44.99,
+    "description": "Chic brown jumpsuit made from soft and stretchy material. Perfect for playful days and casual outings. Easy to slip on with button closures and adjustable straps. Versatile design complements a variety of styles.",
+    "rating": 3.9,
+    "image": "src/assets/kids/Brown-Jumpsuit.webp",
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Kids",
+    "title": "Dark Blue Set",
+    "price": 49.99,
+    "description": "Coordinated dark blue set including top and matching bottoms. Crafted from breathable cotton blend for all-day comfort. Ideal for school or playdates with a trendy, sporty look. Durable fabrics stand up to active wear.",
+    "rating": 4.0,
+    "image": "src/assets/kids/dark-blue-set.webp",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Kids",
+    "title": "Denim Jumpsuit",
+    "price": 54.99,
+    "description": "Stylish denim jumpsuit designed for easy layering and movement. Features adjustable straps and front pockets. Perfect for casual outings and rugged play. Durable denim with a soft inner lining ensures comfort.",
+    "rating": 4.4,
+    "image": "src/assets/kids/denim-jumpsuit.webp",
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Kids",
+    "title": "Floral Dress",
+    "price": 42.99,
+    "description": "Bright floral dress that brings spring vibes all year round. Lightweight, breathable fabric with a playful pattern kids love. Elastic waist for a comfortable fit and ease of movement. Perfect for parties or everyday fun.",
+    "rating": 5.0,
+    "image": "src/assets/kids/floral-dress.webp",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Kids",
+    "title": "Light Blue Leggings",
+    "price": 19.99,
+    "description": "Soft light blue leggings crafted with stretchy material for maximum comfort. Easy to pair with tunics or dresses for a casual look. Durable and breathable fabric great for active kids. Machine washable for easy care.",
+    "rating": 4.6,
+    "image": "src/assets/kids/light-blue-leggings.jpg",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Kids",
+    "title": "Orange Trousers",
+    "price": 34.99,
+    "description": "Vibrant orange trousers made from durable cotton blend. Designed with adjustable waist for growing kids and a comfortable fit. Bold color adds fun to everyday wear. Reinforced knees provide extra durability for play.",
+    "rating": 2.6,
+    "image": "src/assets/kids/orange-trousers.webp",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Kids",
+    "title": "Pale Sage Jumper",
+    "price": 31.99,
+    "description": "Soft pale sage jumper perfect for layering in cooler weather. Crafted with breathable knit fabric that keeps kids cozy without overheating. Stylish and versatile, pairs well with casual or dressy looks.",
+    "rating": 4.4,
+    "image": "src/assets/kids/pale-sage-jumper.webp",
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Kids",
+    "title": "Striped T-shirt",
+    "price": 17.99,
+    "description": "Casual striped t-shirt with a classic design. Made from soft cotton fabric that feels great on sensitive skin. Perfect for everyday wear and easy to mix and match. Machine washable and durable for frequent use.",
+    "rating": 4.3,
+    "image": "src/assets/kids/striped-tshirt.webp",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Kids",
+    "title": "White T-shirt",
+    "price": 15.99,
+    "description": "Essential white t-shirt with a comfortable fit. Crafted from 100% cotton for softness and breathability. Ideal for layering or as a standalone piece. Easy care fabric resists shrinking and fading.",
+    "rating": 3.2,
+    "image": "src/assets/kids/white-tshirt-2.JPG",
+
+    "sizes": [
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "10-12 years"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Woman",
+    "title": "White Suit",
+    "price": 89.99,
+    "description": "A crisp white suit that combines elegance with modern tailoring. Perfect for formal occasions or power dressing. The tailored blazer and matching trousers offer a flattering silhouette. Versatile enough to be styled up or down. A staple for any confident wardrobe.",
+    "rating": 4.2,
+    "image": "src/assets/woman/white-suit.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 14,
+    "category": "Woman",
+    "title": "White Dress",
+    "price": 64.5,
+    "description": "A graceful white dress that flows beautifully with every step. Ideal for both casual and semi-formal settings. Its breathable fabric ensures all-day comfort. Pair it with sandals or heels to match your vibe. A timeless piece with feminine charm.",
+    "rating": 4.5,
+    "image": "src/assets/woman/white-dress.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 15,
+    "category": "Woman",
+    "title": "Black Blouse",
+    "price": 39.95,
+    "description": "This classic black blouse is a wardrobe essential. Lightweight yet structured for a polished look. Great for layering under blazers or wearing on its own. Features delicate details for added sophistication. Effortlessly chic for work or dinner.",
+    "rating": 3.6,
+    "image": "src/assets/woman/black-blouse.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 16,
+    "category": "Woman",
+    "title": "Classic Black Set",
+    "price": 99.0,
+    "description": "A refined black set featuring a minimalist top and slim-fit trousers. This set makes a bold yet simple fashion statement. Crafted with quality fabric that flatters every body type. Perfect for events, business, or evening wear. Easy to accessorize for any look.",
+    "rating": 3.8,
+    "image": "src/assets/woman/classic-black-set.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+
+  {
+    "id": 17,
+    "category": "Woman",
+    "title": "Denim Trousers",
+    "price": 54.99,
+    "description": "A go-to pair of denim trousers that combine comfort and style. Slim-fit design for a flattering shape. Durable yet soft fabric ensures long wear. Easy to match with any top in your wardrobe. An everyday staple with a modern edge.",
+    "rating": 3.2,
+    "image": "src/assets/woman/denim-trousers.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 18,
+    "category": "Woman",
+    "title": "Grey Suit",
+    "price": 88.0,
+    "description": "This structured grey suit delivers professional style with a modern twist. Includes a blazer and straight-leg pants. Crafted for a confident fit and all-day comfort. Ideal for the office or business meetings. A sleek and versatile addition to your wardrobe.",
+    "rating": 4.1,
+    "image": "src/assets/woman/grey-suit.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 19,
+    "category": "Woman",
+    "title": "Navy Blue Blazer",
+    "price": 59.9,
+    "description": "A navy blue blazer that instantly upgrades any outfit. Tailored to flatter with a comfortable stretch. Versatile enough for work or casual layering. Pair with jeans or slacks for a polished look. A must-have layering piece for every season.",
+    "rating": 4.5,
+    "image": "src/assets/woman/navy-blue-blazer.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+
+  {
+    "id": 20,
+    "category": "Woman",
+    "title": "Sleeveless Dress",
+    "price": 49.5,
+    "description": "This sleeveless dress is a warm-weather essential. Lightweight with a flattering cut that flows with you. Great for both casual outings and dressy occasions. Breathable fabric for all-day comfort. Style it with accessories for a personal touch.",
+    "rating": 4.4,
+    "image": "src/assets/woman/sleeveless-dress.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 21,
+    "category": "Woman",
+    "title": "White Coat",
+    "price": 110.0,
+    "description": "A stunning white coat that combines warmth and elegance. Clean lines, quality material, and a tailored finish. Ideal for layering over dresses or suits. Perfect for winter styling with sophistication. A timeless piece you’ll return to season after season.",
+    "rating": 5.0,
+    "image": "src/assets/woman/white-coat.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 22,
+    "category": "Woman",
+    "title": "White Trousers",
+    "price": 58.99,
+    "description": "These white trousers offer a clean, elegant look that fits any season. Designed with a flattering high waist and a slightly tapered leg. They’re lightweight, breathable, and perfect for both casual and formal settings. Style with a blouse, blazer, or a relaxed tee for versatile outfits.",
+    "rating": 3.6,
+    "image": "src/assets/woman/white-trousers.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 23,
+    "category": "Man",
+    "title": "Black Shirt",
+    "price": 54.99,
+    "description": "The Black Shirt is a timeless essential for every man's wardrobe. Made from breathable cotton, it’s ideal for both casual and formal occasions. The slim-fit cut gives a flattering silhouette. It’s soft, durable, and easy to style with any trousers. A go-to choice for confident everyday wear.",
+    "rating": 3.1,
+    "image": "src/assets/man/black-shirt.jpg",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 24,
+    "category": "Man",
+    "title": "Brown Suit",
+    "price": 149.99,
+    "description": "Elevate your formalwear with our tailored Brown Suit. Crafted with premium fabric, this set ensures both comfort and polish. The rich brown tone adds modern flair to traditional styling. Whether for weddings or boardrooms, it's a standout piece. Pair it with loafers or oxfords for a refined look.",
+    "rating": 4.8,
+    "image": "src/assets/man/brown-suit.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 25,
+    "category": "Man",
+    "title": "Brown Coat",
+    "price": 119.5,
+    "description": "Stay warm and stylish with this versatile Brown Coat. Designed with a tailored fit, it’s made to layer effortlessly over any outfit. Water-resistant material keeps you dry, while inner fleece lining provides extra warmth. A smart pick for winter urban looks. Timeless and practical for cold days.",
+    "rating": 4.7,
+    "image": "src/assets/man/brown-coat.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 26,
+    "category": "Man",
+    "title": "Brown Shorts",
+    "price": 34.0,
+    "description": "These Brown Shorts are the ultimate in relaxed style. Made from lightweight, breathable cotton, they’re perfect for summer days. With a tailored waist and roomy fit, comfort meets class. Easy to pair with polos or t-shirts. Your new weekend staple.",
+    "rating": 4.3,
+    "image": "src/assets/man/brown-shorts.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 27,
+    "category": "Man",
+    "title": "Brown Suit",
+    "price": 149.99,
+    "description": "A second take on the refined Brown Suit, this version features a slightly darker tone and enhanced stitching. Perfect for formal events or stylish workdays. It's sleek, breathable, and makes a sharp statement. Add a crisp white shirt for an iconic combo. Built for confidence and charm.",
+    "rating": 4.5,
+    "image": "src/assets/man/brown-suit-2.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 28,
+    "category": "Man",
+    "title": "Burgundy Jumper",
+    "price": 49.9,
+    "description": "The Burgundy Jumper offers rich color and comfort for cooler days. Designed with a ribbed collar and cuffs, it adds a pop of color to neutral outfits. Made from soft-knit cotton blend. Dress it up or down with ease. Ideal for layering throughout the season.",
+    "rating": 3.4,
+    "image": "src/assets/man/burgundy-jumper.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 29,
+    "category": "Man",
+    "title": "Colorful Shirt",
+    "price": 42.0,
+    "description": "A bold statement piece, the Color Shirt features a mix of modern hues in a stylish pattern. Light and breathable, it’s great for summer events or creative office looks. The relaxed fit ensures comfort all day long. Pair it with jeans or chinos. Designed for those who like to stand out.",
+    "rating": 4.1,
+    "image": "src/assets/man/color-shirt.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 30,
+    "category": "Man",
+    "title": "Dark Blue Suit",
+    "price": 159.0,
+    "description": "The Dark Blue Suit exudes elegance and structure. Made with high-quality materials for a perfect fit and long-lasting wear. Ideal for weddings, business meetings, or upscale nights out. Sleek, polished, and effortlessly sharp. A staple in every professional wardrobe.",
+    "rating": 4.9,
+    "image": "src/assets/man/dark-blue-suit.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 31,
+    "category": "Man",
+    "title": "Dark Blue Suit",
+    "price": 159.0,
+    "description": "A refined version of the classic Dark Blue Suit, this design boasts a contemporary cut and premium detailing. Wrinkle-resistant and made for comfort. From day to night, it transitions seamlessly. Own the room in understated luxury. Crafted for impact.",
+    "rating": 4.8,
+    "image": "src/assets/man/dark-blue-suit-2.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 32,
+    "category": "Man",
+    "title": "Grey Suit",
+    "price": 142.0,
+    "description": "Modern and sleek, the Grey Suit is your answer to business-class style. It balances formality with edge, making it perfect for various occasions. Lightweight and breathable, yet structured. Dress it up or keep it casual. A dependable choice with personality.",
+    "rating": 4.6,
+    "image": "src/assets/man/grey-suit.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 33,
+    "category": "Man",
+    "title": "Light Blue Shirt",
+    "price": 38.99,
+    "description": "The Light Blue Shirt blends classic style with everyday wearability. Soft to the touch and easy to iron. It’s a perfect partner for office trousers or denim. The calm hue adds freshness to your rotation. Comfort and polish in one smart package.",
+    "rating": 2.5,
+    "image": "src/assets/man/light-blue-shirt.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 34,
+    "category": "Man",
+    "title": "Grey Suit",
+    "price": 199.99,
+    "description": "Classic and elegant grey suit tailored for a sharp, modern fit. Crafted from premium fabric that ensures comfort and durability. Perfect for formal occasions or professional wear.",
+    "rating": 4.5,
+    "image": "src/assets/man/grey-suit.jpg",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+
+  {
+    "id": 35,
+    "category": "New",
+    "title": "Blush Coat",
+    "price": 125.0,
+    "description": "Add a soft touch to your outerwear with this elegant blush coat. It features a flattering cut, warm lining, and stylish buttons. A beautiful way to brighten up chilly days without compromising style.",
+    "rating": 3.9,
+    "image": "src/assets/new/blush-coat.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+
+  {
+    "id": 36,
+    "category": "Woman",
+    "title": "White Blouse",
+    "price": 46.5,
+    "description": "Clean, crisp, and effortlessly elegant, this white blouse fits every occasion. Whether styled with trousers or skirts, it adds polish instantly. Lightweight and breathable for year-round comfort.",
+    "rating": 4.3,
+    "image": "src/assets/new/white-blouse.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 37,
+    "category": "New",
+    "title": "White Dress",
+    "price": 94.5,
+    "description": "Soft and radiant, this white dress brings grace to your wardrobe. Designed for comfort and charm, it features subtle detailing and a flattering fit. Perfect for warm days or dressy occasions.",
+    "rating": 4.4,
+    "image": "src/assets/new/white-dress.jpg",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 38,
+    "category": "New",
+    "title": "White Jacket",
+    "price": 119.99,
+    "description": "This white jacket is all about clean lines and versatility. Layer it over casual or formal outfits for a fresh touch. Lightweight but warm, it’s an essential for transitional weather.",
+    "rating": 4.2,
+    "image": "src/assets/new/white-jacket.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 39,
+    "category": "New",
+    "title": "White Shirt",
+    "price": 45.6,
+
+    "description": "A wardrobe staple, this white shirt delivers timeless style and comfort. Whether tucked into jeans or layered under blazers, it never fails to impress. Breathable and easy-care fabric included.",
+    "rating": 4.3,
+    "image": "src/assets/new/white-shirt.jpg",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+
+  {
+    "id": 40,
+    "category": "New",
+    "title": "White Blouse",
+    "price": 19.99,
+    "description": "Delicate white blouse with light fabric perfect for warm weather. Adds a touch of elegance to any summer outfit.",
+    "rating": 4.5,
+
+    "image": "src/assets/new/white-blouse.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 41,
+    "category": "New",
+    "title": "White-T-shirt",
+    "price": 19.99,
+    "description": "Simple and comfy white t-shirt, perfect for summer play and casual wear. Breathable fabric keeps kids cool all day long.",
+    "rating": 2.3,
+
+    "image": "src/assets/new/white-tshirt-2.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 42,
+    "category": "New",
+    "title": "Knitted Pullover",
+    "price": 29.99,
+    "description": "Cozy knitted pullover perfect for cooler days. Soft yarn and stylish design make it a versatile wardrobe staple.",
+    "rating": 4.4,
+
+    "image": "src/assets/new/knitted-pullover.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 43,
+    "category": "Woman",
+    "title": "White Set",
+    "price": 29.99,
+    "description": "Chic white set including top and matching bottom. Perfect for a coordinated and stylish look.",
+    "rating": 4.5,
+    "image": "src/assets/woman/white-set.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 44,
+    "category": "New",
+    "title": "White Jacket",
+    "price": 29.99,
+    "description": "Crisp white jacket that pairs well with any outfit. Lightweight and perfect for transitional weather.",
+    "rating": 4.5,
+
+    "image": "src/assets/new/white-jacket.webp",
+    "sizes": ["XS", "S", "M", "L", "XL"]
+  }
+]
