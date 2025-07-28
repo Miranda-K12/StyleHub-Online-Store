@@ -1,24 +1,34 @@
-// AppRoutes.jsx
+import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/home/Home";
-import Woman from "../pages/woman/Woman";
-import Man from "../pages/man/Man";
-import Kids from "../pages/kids/Kids";
-import WishList from "../pages/wishlist/Wishlist";
-import Cart from "../pages/cart/Cart";
 
-import { ROUTES } from "./Routes";
-import ProductDetails from "../components/productDetails/ProductDetails";
+const Loading = () => (
+  <div style={{ textAlign: "center", padding: "20px", fontSize: "116px" }}>
+    Loading...
+  </div>
+);
+
+const Home = lazy(() => import("../pages/home/Home"));
+const Woman = lazy(() => import("../pages/woman/Woman"));
+const Man = lazy(() => import("../pages/man/Man"));
+const Kids = lazy(() => import("../pages/kids/Kids"));
+const WishList = lazy(() => import("../pages/wishlist/Wishlist"));
+const Cart = lazy(() => import("../pages/cart/Cart"));
+const ProductDetails = lazy(() =>
+  import("../components/productDetails/ProductDetails")
+);
+
 const AppRoutes = () => (
-  <Routes>
-    <Route path={ROUTES.HOME} element={<Home />} />
-    <Route path={ROUTES.WOMAN} element={<Woman />} />
-    <Route path="/product/:productId" element={<ProductDetails />} />
-    <Route path={ROUTES.MAN} element={<Man />} />
-    <Route path={ROUTES.KIDS} element={<Kids />} />
-    <Route path="/wishlist" element={<WishList />} />
-    <Route path="/cart" element={<Cart />} />
-  </Routes>
+  <Suspense fallback={<Loading />}>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/woman" element={<Woman />} />
+      <Route path="/man" element={<Man />} />
+      <Route path="/kids" element={<Kids />} />
+      <Route path="/wishlist" element={<WishList />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/product/:productId" element={<ProductDetails />} />
+    </Routes>
+  </Suspense>
 );
 
 export default AppRoutes;

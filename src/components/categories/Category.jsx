@@ -1,5 +1,4 @@
 import styles from "./Category.module.css";
-
 import { useNavigate } from "react-router-dom";
 
 function CategoryCard({ imageSrc, title, route }) {

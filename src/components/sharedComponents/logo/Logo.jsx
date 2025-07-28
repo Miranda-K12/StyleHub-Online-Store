@@ -5,24 +5,23 @@ import { useMediaQuery } from "@mui/material";
 function Logo({ fontSizePx = "36px", color = "#fff" }) {
   const navigate = useNavigate();
   const isMobile = useMediaQuery("(max-width:768px)");
-  const adjustedFontSize = isMobile ? "24px" : fontSizePx;
-
-  const handleClick = () => {
-    navigate("/");
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const logoStyle = {
-    fontWeight: "bold",
-    fontStyle: "italic",
-    fontSize: adjustedFontSize,
-    color,
-    cursor: "pointer",
-    textTransform: "uppercase",
-  };
+  const fontSize = isMobile ? "24px" : fontSizePx;
 
   return (
-    <span style={logoStyle} onClick={handleClick}>
+    <span
+      onClick={() => {
+        navigate("/");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }}
+      style={{
+        fontWeight: "bold",
+        fontStyle: "italic",
+        fontSize,
+        color,
+        cursor: "pointer",
+        textTransform: "uppercase",
+      }}
+    >
       StyleHub
     </span>
   );
