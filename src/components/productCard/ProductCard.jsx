@@ -40,7 +40,7 @@ function ProductCard({ product }) {
       style={{ textDecoration: "none", color: "inherit" }}
     >
       <div className={styles.productCard}>
-        <div className={styles.imageWrapper} style={{ position: "relative" }}>
+        <div className={styles.imageWrapper}>
           <img
             src={`${import.meta.env.BASE_URL}${product.image}`}
             alt={`${product.title} product image`}
@@ -48,20 +48,23 @@ function ProductCard({ product }) {
             decoding="async"
             className={styles.imageWrapperImage}
           />
-          <IconButton
-            onClick={toggleWishlist}
-            className={styles.wishlistIcon}
-            aria-label={
-              isInWishlist ? "Remove from wishlist" : "Add to wishlist"
-            }
-          >
-            {isInWishlist ? <FavoriteIcon /> : <FavoriteBorder />}
-          </IconButton>
         </div>
         <div className={styles.cardInfo}>
-          <p className={styles.productPrice}>
-            <strong>${Number(product.price).toFixed(2)}</strong>
-          </p>
+          <div className={styles.productHeader}>
+            <p className={styles.productPrice}>
+              <strong>${Number(product.price).toFixed(2)}</strong>
+            </p>
+            <IconButton
+              style={{ color: "#e63946" }}
+              onClick={toggleWishlist}
+              className={styles.wishlistIcon}
+              aria-label={
+                isInWishlist ? "Remove from wishlist" : "Add to wishlist"
+              }
+            >
+              {isInWishlist ? <FavoriteIcon /> : <FavoriteBorder />}
+            </IconButton>
+          </div>
           <StarRating rating={product.rating} />
           <h3 className={styles.productName}>{product.title}</h3>
         </div>

@@ -32,22 +32,23 @@ function Wishlist() {
             loading="lazy"
             style={{ width: "100%", borderRadius: "5px" }}
           />
-          <h3 className={styles.wishlistCardHeader}>{item.title}</h3>
+          <div className={styles.wishlistCardInfo}>
+            <h3 className={styles.wishlistCardText}>{item.title}</h3>
+          </div>
           <StarRating rating={item.rating} />
           <p style={{ marginTop: "12px" }}>${item.price.toFixed(2)}</p>
         </Link>
         <IconButton
           aria-label="Remove from wishlist"
-          onClick={(e) => {
-            e.stopPropagation();
-            handleRemove(item.id);
-          }}
+          onClick={() => handleRemove(item.id)}
           style={{
             color: "#e63946",
             width: "40px",
             position: "absolute",
-            right: 8,
-            top: 8,
+            top: "10px",
+            right: "10px",
+            backgroundColor: "#fff",
+            borderRadius: "50%",
           }}
         >
           <FavoriteIcon />

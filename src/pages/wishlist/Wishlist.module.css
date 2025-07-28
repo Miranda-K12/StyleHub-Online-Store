@@ -23,6 +23,11 @@
   color: var(--color-primary);
   margin-bottom: 12px;
 }
+.wishlistCardInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .link {
   text-decoration: none;
   color: inherit;
