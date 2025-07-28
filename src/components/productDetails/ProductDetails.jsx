@@ -6,10 +6,10 @@ import Button from "../button/Button";
 
 import styles from "./ProductDetails.module.css";
 import StarRating from "../starRating/StarRating";
-import VisaCard from "../../assets/bankCards/visa.svg";
-import MasterCard from "../../assets/bankCards/mastercard.svg";
-import ExpressCard from "../../assets/bankCards/express.svg";
-import DiscoverCard from "../../assets/bankCards/discover.svg";
+import VisaCard from "/assets/bankCards/visa.svg";
+import MasterCard from "/assets/bankCards/mastercard.svg";
+import ExpressCard from "/assets/bankCards/express.svg";
+import DiscoverCard from "/assets/bankCards/discover.svg";
 
 function SizeSelector({ sizes, onSizeChange, selectedSize }) {
   return (
