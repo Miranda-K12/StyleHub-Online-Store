@@ -1,12 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
-const Loading = () => (
-  <div style={{ textAlign: "center", padding: "20px", fontSize: "116px" }}>
-    Loading...
-  </div>
-);
-
 const Home = lazy(() => import("../pages/home/Home"));
 const Woman = lazy(() => import("../pages/woman/Woman"));
 const Man = lazy(() => import("../pages/man/Man"));
@@ -18,7 +12,7 @@ const ProductDetails = lazy(() =>
 );
 
 const AppRoutes = () => (
-  <Suspense fallback={<Loading />}>
+  <Suspense fallback={null}>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/woman" element={<Woman />} />

@@ -42,7 +42,7 @@ function ProductCard({ product }) {
       <div className={styles.productCard}>
         <div className={styles.imageWrapper} style={{ position: "relative" }}>
           <img
-            src={product.image}
+            src={`${import.meta.env.BASE_URL}${product.image}`}
             alt={`${product.title} product image`}
             loading="lazy"
             decoding="async"
