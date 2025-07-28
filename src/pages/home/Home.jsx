@@ -4,11 +4,11 @@ import Contact from "../../components/contact/Contact";
 import FeatureCard from "../../components/featureCards/FeatureCards";
 import CategoryPage from "../../components/sharedComponents/categoryPage/CategoryPage";
 import ShopCard from "../../components/ShopInfo/ShopInfo";
-import HeroImage from "../../assets/home/heroImage.webp";
-import France from "../../assets/shops/France.webp";
-import Italy from "../../assets/shops/Italy.webp";
-import Georgia from "../../assets/shops/Georgia.jpg";
-import Greece from "../../assets/shops/Greece.jpg";
+const HeroImage = "/assets/home/heroImage.webp";
+const France = "/assets/shops/France.webp";
+const Italy = "/assets/shops/Italy.webp";
+const Georgia = "/assets/shops/Georgia.jpg";
+const Greece = "/assets/shops/Greece.jpg";
 
 function Home() {
   return (

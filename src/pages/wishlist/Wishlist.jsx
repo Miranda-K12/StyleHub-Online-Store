@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { useCallback, useMemo } from "react";
 import styles from "./Wishlist.module.css";
-import wishListIcon from "../../assets/wishlist/wishlist.svg";
+import wishListIcon from "/assets/wishlist/wishlist.svg";
 import StarRating from "../../components/starRating/StarRating";
 function Wishlist() {
   const wishlistItems = useSelector((state) => state.wishlist.items);

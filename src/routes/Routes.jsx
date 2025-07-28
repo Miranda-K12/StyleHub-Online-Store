@@ -1,7 +1,7 @@
-import homeImg from "../assets/home/couple.webp";
-import womanImg from "../assets/home/woman-1.webp";
-import manImg from "../assets/home/man.webp";
-import kidsImg from "../assets/home/kid.webp";
+import homeImg from "/assets/home/couple.webp";
+import womanImg from "/assets/home/woman-1.webp";
+import manImg from "/assets/home/man.webp";
+import kidsImg from "/assets/home/kid.webp";
 
 const ROUTES = {
   HOME: "/",

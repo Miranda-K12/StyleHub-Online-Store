@@ -4,8 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { removeFromCart, clearCart } from "../../features/cart/cartSlice";
 import styles from "./Cart.module.css";
 import Button from "../../components/button/Button";
-import CartImage from "../../assets/cart/basket.png";
-
+import CartImage from "/assets/cart/basket.png";
 import Payment from "../../components/payment/Payment";
 function Cart() {
   const cartItems = useSelector((state) => state.cart.items);
