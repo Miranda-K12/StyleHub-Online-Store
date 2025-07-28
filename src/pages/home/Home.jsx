@@ -1,5 +1,4 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import styles from "./Home.module.css";
 import Contact from "../../components/contact/Contact";
 import FeatureCard from "../../components/featureCards/FeatureCards";

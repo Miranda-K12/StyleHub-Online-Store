@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../../../features/products/productSlice";
 import ProductCard from "../../../components/productCard/ProductCard";
-import styles from "./CategoryPage.module.css";
+import styles from "./Categorypage.module.css";
 import SwiperLayout from "../../../components/swiper/Swiper";
 
 function CategoryPage({ category, layout = "grid" }) {
