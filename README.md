@@ -47,10 +47,8 @@ src/
 ├── features/         # Redux slices (cart, wishlist, products)
 ├── pages/            # App pages (Home, ProductDetail, Wishlist, etc.)
 ├── routes/           # Routing setup
-├── services/         # Data fetching from local server
 ├── App.jsx           # Main app component
 └── main.jsx          # Entry point
-
 
 ## 📄 License
 
