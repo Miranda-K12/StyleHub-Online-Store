@@ -15,7 +15,6 @@ import styles from "./ProductCard.module.css";
 function ProductCard({ product }) {
   const dispatch = useDispatch();
   const wishlistItems = useSelector((state) => state.wishlist.items);
-
   const isInWishlist = useMemo(
     () => wishlistItems.some((item) => item.id === product.id),
     [wishlistItems, product.id]
@@ -56,7 +55,10 @@ function ProductCard({ product }) {
             </p>
             <IconButton
               style={{ color: "#e63946" }}
-              onClick={toggleWishlist}
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleWishlist();
+              }}
               className={styles.wishlistIcon}
               aria-label={
                 isInWishlist ? "Remove from wishlist" : "Add to wishlist"

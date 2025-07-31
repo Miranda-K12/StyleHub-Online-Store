@@ -3,7 +3,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../../features/cart/cartSlice";
 import Button from "../button/Button";
-
 import styles from "./ProductDetails.module.css";
 import StarRating from "../starRating/StarRating";
 import VisaCard from "/assets/bankCards/visa.svg";
