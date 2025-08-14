@@ -55,10 +55,7 @@ function ProductCard({ product }) {
             </p>
             <IconButton
               style={{ color: "#e63946" }}
-              onClick={(e) => {
-                e.stopPropagation();
-                toggleWishlist();
-              }}
+              onClick={toggleWishlist}
               className={styles.wishlistIcon}
               aria-label={
                 isInWishlist ? "Remove from wishlist" : "Add to wishlist"
